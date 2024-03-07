@@ -6,3 +6,4 @@ RUN pip install pyyaml && pip install PyModbus && pip install paho-mqtt
 
 # Copy root filesystem
 COPY rootfs /
+

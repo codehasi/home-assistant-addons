@@ -16,4 +16,5 @@ message=$(bashio::config 'message')
 bashio::log.info "${message:="Hello World..."}"
 
 ## Run your program
-exec /usr/bin/my_program
+exec cd /MTECmqtt && python3 mtec_mqtt.py
+
